@@ -1,0 +1,10 @@
+1,springMVC如何做表单数据较验？有什么标准？Path variable中的数据如何做教研
+答：
+2.如何在mybaits 的mapper文件中定义一个复合对象
+答：在resultMap中申明association属性中编写对应关系。。
+3.maven的snapshot版有何作用？如何强制更新对snapshot版本的依赖？
+4.tomcat发生无法响应http请求，控制台无输出的情况，可能发生什么问题，如何诊断
+5.service层和dao层的作用分别是什么？
+答：二者都属于mvc架构中的m层，service层负责业务逻辑处理，dao层负责持久化数据。
+
+6.把spring + mybatis + springMvc整合在一起，主要有那些配置文件，罗列主要配置类容

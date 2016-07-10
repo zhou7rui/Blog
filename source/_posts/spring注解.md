@@ -22,7 +22,7 @@ tags: java
        3、@Repository用于标注数据访问组件，即DAO组件.
        4、@Component泛指组件，当组件不好归类的时候，我们可以使用这个注解进行标注。    
           @Service public class UserServiceImpl implements UserService { }
-          @Repository public class UserDaoImpl implements UserDao { } getBean的默认名称是类名（头字母小写），如果想自定义，可以@Service("***") 这样来指定，这种bean默认是单例的，如果想改变，可以使用@Service(“beanName”) 
+          @Repository public class UserDaoImpl implements UserDao { } getBean的默认名称是类名（头字母小写），如果想自定义，可以@Service("***") 这样来指定，这种bean默认是单例的，如果想改变，可以使用@Service(“beanName”)
           @Scope(“prototype”)来改变。可以使用以下方式指定初始化方法和销毁方法（方法名任意）： @PostConstruct public void init() { }
 ## 组件自动装配：
   Spring不但支持自己定义的@Autowired注解，还支持几个由JSR-250规范定义的注解，它们分别是@Resource、@PostConstruct以及@PreDestroy。

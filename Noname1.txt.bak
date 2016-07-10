@@ -1,0 +1,4 @@
+1,springMVC如何做表单数据较验？有什么标准？Path variable中的数据如何做教研
+答：
+2.如何在mybaits 的mapper文件中定义一个复合对象
+答：在resultMap中申明association属性中编写对应关系。。
